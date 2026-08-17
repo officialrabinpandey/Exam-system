@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://exam-system-9sw5.onrender.com/api";
 export const TOKEN_STORAGE_KEY = "examSeatSystem.token";
 export const USER_STORAGE_KEY = "examSeatSystem.user";
 
